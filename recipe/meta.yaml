@@ -1,5 +1,5 @@
 {% set name = "chembl_structure_pipeline" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,20 +7,20 @@ package:
 
 source:
   url: https://github.com/chembl/ChEMBL_Structure_Pipeline/archive/{{ version }}.tar.gz
-  sha256: f74d5174094ed4c9d68ba2b870c54cccc7f9fc42c09fe691852ab1d6a990d551
+  sha256: fb332267e09b63d5c4939c1cd06818f71da8539e8d308e803b616533a02184bb
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.7
     - pip
     - rdkit >=2019.09.2
   run:
-    - python
+    - python >=3.7
     - rdkit >=2019.09.2
 
 test:
@@ -32,7 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'ChEMBL database structure pipelines'
+  summary: ChEMBL database structure pipelines
 
 extra:
   recipe-maintainers:
