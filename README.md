@@ -1,11 +1,11 @@
-About chembl_structure_pipeline
-===============================
+About chembl_structure_pipeline-feedstock
+=========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chembl_structure_pipeline-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/chembl/ChEMBL_Structure_Pipeline
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chembl_structure_pipeline-feedstock/blob/main/LICENSE.txt)
 
 Summary: ChEMBL database structure pipelines
 
