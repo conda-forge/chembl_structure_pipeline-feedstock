@@ -1,5 +1,5 @@
 {% set name = "chembl_structure_pipeline" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/chembl/ChEMBL_Structure_Pipeline/archive/{{ version }}.tar.gz
-  sha256: 58651c7ca12f6318ca1a167cb1284124ac227d08314d02f2aceafac904557309
+  sha256: a553b95ce198afdf99737e14ab11db639d09ff06b74fd192bb3d3a680ad88def
 
 build:
   noarch: python
