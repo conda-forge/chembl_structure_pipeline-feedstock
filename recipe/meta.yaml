@@ -18,7 +18,6 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - rdkit >=2022.09.01
     - setuptools
   run:
     - python >={{ python_min }}
