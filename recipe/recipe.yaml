@@ -1,6 +1,6 @@
 context:
   name: chembl_structure_pipeline
-  version: 1.2.2
+  version: "1.2.4"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/chembl/ChEMBL_Structure_Pipeline/archive/${{ version }}.tar.gz
-  sha256: a553b95ce198afdf99737e14ab11db639d09ff06b74fd192bb3d3a680ad88def
+  sha256: fbe9c527c89fdb92ab78423845f824a6f8da1338c1173786aeb6bdc4e2af5c7e
 
 build:
   number: 0
